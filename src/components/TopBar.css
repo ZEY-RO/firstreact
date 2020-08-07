@@ -1,0 +1,17 @@
+.tile {
+  color: rgb(19, 69, 128);
+  font-size: 25px;
+  margin: 4%;
+  text-decoration: none;
+}
+.tile:hover {
+  text-decoration: none;
+  color: rgb(231, 97, 151);
+  border-bottom: 3px solid rgb(231, 97, 151);
+}
+.logo {
+  transition: transform 0.5s;
+}
+.logo:hover {
+  transform: scale(1.3);
+}
